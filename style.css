@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.container{
+    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    display: flex;
+}
+.box-small-img img{
+    width: 90px;
+    height: 120px;
+    display: block;
+    cursor: pointer;
+    margin: 10px 0;
+    opacity: 0.5;
+    
+
+}
+.box-big-img:hover{
+    opacity: 1;
+}
+.box-small-img {
+    float: left;
+}
+.box-big-img img{
+    width: 500px;
+    height: 640px;
+
+}
+.box-big-img{
+    float: right;
+    padding: 10px;
+}
